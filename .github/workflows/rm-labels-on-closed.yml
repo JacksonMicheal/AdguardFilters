@@ -2,7 +2,7 @@ name: "Remove 'Unsorted' labels when the issue is closed"
 
 on:
   issues:
-    types: [closed]
+    types: [open]
 
 jobs:
   remove_label:
